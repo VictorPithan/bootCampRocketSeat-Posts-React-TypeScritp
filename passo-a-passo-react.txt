@@ -1,0 +1,24 @@
+# CRIAR PROJETO COM O VITE
+  - rodar no terminal o comando
+    -> npm create vite@latest
+    -> npm install ou npm i
+    -> npm run dev
+
+# CONFIGURAÇÕES DOS ARQUIVOS
+  - limpar o arquivo deixando na pasta /src os arquivos App.jsx e main.jsx
+  - limpar as importações dos arquivos deletados
+  - no arquivo App.jsx deixar somente o funtcion App() e limpar o retorno
+    ex.:
+      function App() {
+        return (
+          <h1>Hello World</h1>
+        )
+      }
+      export default App
+
+# CONFIGURAR PROJETO PARA TYPESCRIPT
+  -  entrar em uma nova pasta para criar um novo projeto e digitar no terminal npm create vite@latest
+  - seleciona a opção react e depois react-ts 
+  - entrar na pasta e instalar as dependencias com npm install
+  - deletar todos os arquivos da pasta src (menos o arquivo vite-env.d.ts)
+  - repassar os arquivos do projeto em javaScript para o projeto em typescript renomeando as extensões de jsx para tsx
